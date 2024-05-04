@@ -2,7 +2,7 @@
 <br />
 <p align="center">
    <a href="https://github.com/NCSclub/NIT-TEST"><img src="public/ncs_logo.png" height="auto" width="250px" style="border-radius:50%"></a>
-  <h3 align="center">Enigma Website</h3>
+  <h3 align="center">NCS Hack Website</h3>
 
   <p align="center">
 The Repository for Enigma Website made using 
