@@ -1,6 +1,6 @@
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import Agenda from "@/components/Agenda";
+import AskQuestions from "@/components/AskQuestions";
 import Sponsors from "@/components/Sponsors";
 import AboutNcsHack from "@/components/AboutNcsHack";
 import AboutNcs from "@/components/AboutNcs";
@@ -13,7 +13,7 @@ export default function page() {
       <Hero />
       <AboutNcs />
       <AboutNcsHack />
-      <Agenda />
+      <AskQuestions />
       <Sponsors />
       <Footer />
     </div>

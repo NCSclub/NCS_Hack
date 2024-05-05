@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Agenda() {
+export default function AskQuestions() {
   return (
     <div>
       
