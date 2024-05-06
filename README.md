@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <a href="https://github.com/NCSclub/NIT-TEST"><img src="public/ncs_logo.png" height="auto" width="250px" style="border-radius:50%"></a>
+   <a href="https://github.com/NCSclub/NIT-TEST"><img src="public/images/NCSHACK logo_c.png" height="auto" width="250px" style="border-radius:50%"></a>
   <h3 align="center">NCS Hack Website</h3>
 
   <p align="center">
