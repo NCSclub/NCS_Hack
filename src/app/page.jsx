@@ -1,4 +1,3 @@
-import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import AskQuestions from "@/components/AskQuestions";
 import Sponsors from "@/components/Sponsors";
@@ -9,7 +8,6 @@ import Hero from "@/components/Hero";
 export default function page() {
   return (
     <div>
-      <Nav />
       <Hero />
       <AboutNcs />
       <AboutNcsHack />
