@@ -12,9 +12,10 @@ export default function Sponsors() {
   ]
   return (
     <section className='mt-8 mb-8'>
-      <h1 className='text-center text-7xl font-semibold'><span className=' text-[#0EC9E3]'>our</span> sponsors</h1>
+      <h1 className='text-center text-5xl md:text-7xl font-semibold'><span className=' text-[#0EC9E3]'>our</span> sponsors</h1>
       <p className='text-center uppercase font-light mt-4'>we have beeN working with some fortune + 500 client </p>
-      <ul className='flex justify-center items-center'>
+      
+      <ul className='flex flex-col md:flex-row justify-center items-center'>
         {sponsors.map((logo, key) => (
 
           <li>
