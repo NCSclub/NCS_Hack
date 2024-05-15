@@ -8,8 +8,20 @@ import Hero from "@/components/Hero";
 export default function page() {
   return (
     <div>
+      <div className=" mb-32 bg-[url('/images/General/ellipse503.svg')] bg-no-repeat bg-right" >
+      <div className="bg-[url('/images/General/ellipse500.svg')] bg-no-repeat bg-left">
       <AboutNcs />
+      </div>
+      </div>
+      <div className="bg-[url('/images/General/ellipse501.svg')] bg-no-repeat bg-right">
+      <div className="bg-[url('/images/General/cube6_transparent.svg')] bg-no-repeat  bg-left ">
       <Sponsors />
+      <AboutNcs />
+      </div>
+      </div>
+      <div className="bg-[url('/images/General/cube6_transparentbig.svg')] bg-no-repeat  bg-right" >
+      <AboutNcs />
+      </div>
     </div>
   )
 }
