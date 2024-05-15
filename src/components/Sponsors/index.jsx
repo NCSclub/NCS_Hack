@@ -26,5 +26,6 @@ export default function Sponsors() {
         ))}
       </ul>
     </section>
+
   )
 }
