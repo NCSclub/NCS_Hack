@@ -3,7 +3,6 @@ import Image from "next/image";
 import CountdownTimer from "./counterdown";
 import { HoverBorderGradientDemo } from "./components/ui/hover-border-gradientComp";
 import { SpotlightPreview } from "./components/ui/SpotlightComp";
-import styles from  "@/styles/hero.module.css"
 import Link from "next/link";
 
 export default function Hero() {
