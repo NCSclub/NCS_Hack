@@ -12,14 +12,14 @@
     right: -100%;
     color: #fff;
     position: absolute;
-    background: rgba(255, 255, 255, 0.288);
+    background: #f9dafb45;
     backdrop-filter: blur(5px);
     border-radius: 50px;
-   padding-top: 50%;
-   padding-bottom: 50%;
+   padding-top: 40%;
+   padding-bottom: 60%;
     padding-right: 10%;
     padding-left: 10%;
-    transition: 1.0s;
+    transition: 1.1s;
     display:block    
 }
 .carte:hover .info {
