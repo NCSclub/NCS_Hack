@@ -11,7 +11,7 @@ export default function Sponsors() {
 
   ]
   return (
-    <section className='mt-8 mb-8'>
+    <section className='py-16'>
       <h1 className='text-center text-5xl md:text-7xl font-semibold'><span className=' text-[#0EC9E3]'>our</span> sponsors</h1>
       <p className='text-center uppercase font-light mt-4'>we have beeN working with some fortune + 500 client </p>
       

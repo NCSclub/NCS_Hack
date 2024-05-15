@@ -8,7 +8,7 @@ import Hero from "@/components/Hero";
 export default function page() {
   return (
     <div>
-      <div className=" mb-32 bg-[url('/images/General/ellipse503.svg')] bg-no-repeat bg-right" >
+      <div className=" mb-4 bg-[url('/images/General/ellipse503.svg')] bg-no-repeat bg-right" >
       <div className="bg-[url('/images/General/ellipse500.svg')] bg-no-repeat bg-left">
       <Hero/>
       </div>
