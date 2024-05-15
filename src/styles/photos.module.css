@@ -1,0 +1,21 @@
+.picture{
+    transition: transform 300ms ease;
+    transform: rotate3d(-0.1, 2, 0, 180deg);
+}
+.backFaceHidden{
+    backface-visibility:hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+.rotateY{
+    transform: rotateY(180deg);
+}
+
+.rotateYhover > div{
+    transform-style: preserve-3d;
+}
+
+.rotateYhover:hover > div{
+    transform: rotateY(180deg);
+}
