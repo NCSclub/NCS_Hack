@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const CountdownTimer = ({ setDisabled }) => {
   const calculateTimeLeft = () => {
-    const difference = +new Date("2024-05-25") - +new Date();
+    const difference = +new Date('2024-5-21') - +new Date();
     if (difference > 0) {
       const seconds = Math.floor((difference / 1000) % 60);
       const minutes = Math.floor((difference / 1000 / 60) % 60);
@@ -14,12 +14,15 @@ const CountdownTimer = ({ setDisabled }) => {
     return { days: 0, hours: 0, minutes: 0, seconds: 0 };
   };
 
+    
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
 
   useEffect(() => {
     const timer = setTimeout(() => {
       const newTimeLeft = calculateTimeLeft();
       setTimeLeft(newTimeLeft);
+      
 
       if (
         newTimeLeft.days === 0 &&
@@ -29,7 +32,9 @@ const CountdownTimer = ({ setDisabled }) => {
       ) {
         setDisabled(true);
       }
+
     }, 1000);
+
 
     return () => clearTimeout(timer);
   }, [timeLeft, setDisabled]);
@@ -48,7 +53,7 @@ const CountdownTimer = ({ setDisabled }) => {
       
       <div  className=" flex flex-col justify-center items-center ">
 
-<div className="bg-bgtimer   bg-contain bg-center bg-no-repeat   ">
+<div className="bg-bgtimer2   bg-contain bg-center bg-no-repeat   ">
         <span className=" p-5 flex justify-center items-center  ">
           {" "} 
           {formatTime(days)}
@@ -63,7 +68,7 @@ const CountdownTimer = ({ setDisabled }) => {
 
       <div  className=" flex flex-col justify-center items-center ">
 
-<div className="bg-bgtimer   bg-contain bg-center bg-no-repeat   ">
+<div className="bg-bgtimer2   bg-contain bg-center bg-no-repeat   ">
         <span className=" p-5 flex justify-center items-center  ">
           {" "} 
           {formatTime(hours)}
