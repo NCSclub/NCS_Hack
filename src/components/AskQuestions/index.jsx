@@ -53,14 +53,14 @@ const VortexDemo = () => {
               </div>
             </Vortex>
           ) : (
-            <Vortex backgroundColor="" className={styles.carte}>
+            <div  className={styles.carte}>
               <div className={styles.info}>
               <p className="text-white text-xl capitalize text-balance font-thin">
                 <span className='text-[#F9DAFB] font-medium'>NCS Hack</span> is a thrilling Hackathon hosted by NCS Club, over 3 days, immerse yourself 
                 in dynamic challenges to develop AI powered solutions .
               </p>
               </div>
-            </Vortex>
+            </div>
           )}
         </div>
         <div className="w-72 mx-auto rounded-[60px] h-96 overflow-hidden border-4 border-[#F9DAFB]/45" onMouseEnter={handleCardClick1} onMouseLeave={handleMouseLeave1}>
@@ -73,13 +73,13 @@ const VortexDemo = () => {
               </div>
             </Vortex>
           ) : (
-            <Vortex backgroundColor="" className={styles.carte}>
+            <div backgroundColor="" className={styles.carte}>
               <div className={styles.info}>
               <p className="text-white text-xl capitalize text-balance font-thin">
                 Everyone is invited to <br/><span className='text-[#F9DAFB] font-medium'>NCS Hack !</span> whether you're seasoned coder, creative designer, or data enthusiast .
               </p>
               </div>
-            </Vortex>
+            </div>
           )}
         </div>
         <div className="w-72 mx-auto rounded-[60px] h-96 overflow-hidden border-4 border-[#F9DAFB]/45" onMouseEnter={handleCardClick2} onMouseLeave={handleMouseLeave2}>
@@ -92,13 +92,13 @@ const VortexDemo = () => {
               </div>
             </Vortex>
           ) : (
-            <Vortex backgroundColor="" className={styles.carte}>
+            <div backgroundColor="" className={styles.carte}>
               <div className={styles.info}>
               <p className="text-white text-xl capitalize  font-thin text-balance">
                 <span className='text-[#F9DAFB] font-medium'>NCS Hack</span> aims to push boundaries and tackle real-world problems with AI, sharpen your skills and make a difference in just few days .
               </p>
               </div>
-            </Vortex>
+            </div>
           )}
         </div>
         <div className="w-72 mx-auto rounded-[60px] h-96 overflow-hidden border-4 border-[#F9DAFB]/45" onMouseEnter={handleCardClick3} onMouseLeave={handleMouseLeave3}>
@@ -111,14 +111,14 @@ const VortexDemo = () => {
               </div>
             </Vortex>
           ) : (
-            <Vortex backgroundColor="" className={styles.carte}>
+            <div backgroundColor="" className={styles.carte}>
               <div className={styles.info}>
               <p className="text-white text-xl capitalize font-thin text-balance">
                 To join <span className='text-[#F9DAFB] font-medium'>NCS Hack</span>, it would be better if you already have a team of 4 members, in case 
                 you don't, we will be forming teams . 
                 </p>
               </div>
-            </Vortex>
+            </div>
           )}
         </div>
     </div>

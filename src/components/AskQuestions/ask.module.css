@@ -19,7 +19,7 @@
    padding-bottom: 60%;
     padding-right: 10%;
     padding-left: 10%;
-    transition: 1.1s;
+    transition: 0.5s;
     display:block    
 }
 .carte:hover .info {

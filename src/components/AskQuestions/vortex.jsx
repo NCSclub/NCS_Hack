@@ -3,11 +3,12 @@ import React, { useEffect, useRef } from "react";
 import { createNoise3D } from "simplex-noise";
 import { motion } from "framer-motion";
 import { cn } from "@/components/AskQuestions/utils/cn";
+import throttle from 'lodash/throttle';
 
 const Vortex = (props) => {
   const canvasRef = useRef(null);
   const containerRef = useRef(null);
-  const particleCount = props.particleCount || 700;
+  const particleCount = props.particleCount || 300;
   const particlePropCount = 9;
   const particlePropsLength = particleCount * particlePropCount;
   const rangeY = props.rangeY || 100;
@@ -56,7 +57,6 @@ const Vortex = (props) => {
 
   const initParticles = () => {
     tick = 0;
-    // simplex = new SimplexNoise();
     particleProps = new Float32Array(particlePropsLength);
 
     for (let i = 0; i < particlePropsLength; i += particlePropCount) {
@@ -86,12 +86,19 @@ const Vortex = (props) => {
   const draw = (canvas, ctx) => {
     tick++;
 
+    const offscreenCanvas = document.createElement('canvas');
+    offscreenCanvas.width = canvas.width;
+    offscreenCanvas.height = canvas.height;
+    const offscreenCtx = offscreenCanvas.getContext('2d');
+
+    offscreenCtx.clearRect(0, 0, canvas.width, canvas.height);
+    offscreenCtx.fillStyle = backgroundColor;
+    offscreenCtx.fillRect(0, 0, canvas.width, canvas.height);
+
+    drawParticles(offscreenCtx);
+
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    ctx.fillStyle = backgroundColor;
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-    drawParticles(ctx);
+    ctx.drawImage(offscreenCanvas, 0, 0);
     renderGlow(canvas, ctx);
     renderToScreen(canvas, ctx);
 
@@ -109,13 +116,13 @@ const Vortex = (props) => {
     if (!canvas) return;
 
     let i2 = 1 + i,
-      i3 = 2 + i,
-      i4 = 3 + i,
-      i5 = 4 + i,
-      i6 = 5 + i,
-      i7 = 6 + i,
-      i8 = 7 + i,
-      i9 = 8 + i;
+        i3 = 2 + i,
+        i4 = 3 + i,
+        i5 = 4 + i,
+        i6 = 5 + i,
+        i7 = 6 + i,
+        i8 = 7 + i,
+        i9 = 8 + i;
     let n, x, y, vx, vy, life, ttl, speed, x2, y2, radius, hue;
 
     x = particleProps[i];
@@ -194,13 +201,20 @@ const Vortex = (props) => {
 
   useEffect(() => {
     setup();
-    window.addEventListener("resize", () => {
+    const handleResize = () => {
       const canvas = canvasRef.current;
       const ctx = canvas?.getContext("2d");
       if (canvas && ctx) {
         resize(canvas, ctx);
       }
-    });
+    };
+
+    const throttledResize = throttle(handleResize, 100); 
+    window.addEventListener("resize", throttledResize);
+
+    return () => {
+      window.removeEventListener("resize", throttledResize);
+    };
   }, []);
 
   return (
