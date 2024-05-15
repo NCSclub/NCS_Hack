@@ -15,8 +15,9 @@ export default function page() {
       </div>
       <div className="bg-[url('/images/General/ellipse501.svg')] bg-no-repeat bg-right">
       <div className="bg-[url('/images/General/cube6_transparent.svg')] bg-no-repeat  bg-left ">
+      <AboutNcsHack />
       <Sponsors />
-      <AboutNcs />
+      
       </div>
       </div>
       <div className="bg-[url('/images/General/cube6_transparentbig.svg')] bg-no-repeat  bg-right" >
