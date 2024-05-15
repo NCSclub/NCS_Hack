@@ -10,11 +10,12 @@ export default function page() {
     <div>
       <div className=" mb-32 bg-[url('/images/General/ellipse503.svg')] bg-no-repeat bg-right" >
       <div className="bg-[url('/images/General/ellipse500.svg')] bg-no-repeat bg-left">
-      <AboutNcs />
+      <Hero/>
       </div>
       </div>
       <div className="bg-[url('/images/General/ellipse501.svg')] bg-no-repeat bg-right">
       <div className="bg-[url('/images/General/cube6_transparent.svg')] bg-no-repeat  bg-left ">
+      <AboutNcs />
       <AboutNcsHack />
       <Sponsors />
       
