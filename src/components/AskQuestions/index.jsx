@@ -46,16 +46,19 @@ const VortexDemo = () => {
       <div className="w-72 mx-auto rounded-[60px] h-96 overflow-hidden border-4 border-[#F9DAFB]/45" onMouseEnter={handleCardClick} onMouseLeave={handleMouseLeave}>
           {showContent ? (
             <Vortex backgroundColor="transparent" className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full">
-              <div className="text-center">
-                <p className="text-[#3BC3EE] text-center text-3xl font-semibold">01</p>
-                <h4 className="text-[#F9DAFB] py-4 font-bold text-xl">NCS hack</h4>
-                <h4 className="text-white py-4">What is Ncs Hack about ?</h4>
+              <div className="text-center h-full">
+                <p className="text-[#3BC3EE] text-3xl font-semibold pt-10">01</p>
+                <h4 className="text-[#F9DAFB] py-4 font-bold text-xl">NCS Hack</h4>
+                <h4 className="text-white pt-10 text-2xl font-normal capitalize">What is Ncs Hack about ?</h4>
               </div>
             </Vortex>
           ) : (
             <Vortex backgroundColor="" className={styles.carte}>
               <div className={styles.info}>
-              <p className="text-white text-lg text-justify">New Text Here why it is i want it to go down now i thingk it is working let's try more lines to see if the text stays in the middle</p>
+              <p className="text-white text-xl capitalize text-balance font-thin">
+                <span className='text-[#F9DAFB] font-medium'>NCS Hack</span> is a thrilling Hackathon hosted by NCS Club, over 3 days, immerse yourself 
+                in dynamic challenges to develop AI powered solutions .
+              </p>
               </div>
             </Vortex>
           )}
@@ -63,16 +66,18 @@ const VortexDemo = () => {
         <div className="w-72 mx-auto rounded-[60px] h-96 overflow-hidden border-4 border-[#F9DAFB]/45" onMouseEnter={handleCardClick1} onMouseLeave={handleMouseLeave1}>
           {showContent1 ? (
             <Vortex backgroundColor="transparent" className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full">
-              <div className="text-center">
-                <p className="text-[#3BC3EE] text-center text-3xl font-semibold">02</p>
-                <h4 className="text-[#F9DAFB] py-4 font-bold text-xl">NCS hack</h4>
-                <h4 className="text-white py-4">Who can participate ?</h4>
+              <div className="text-center h-full">
+                <p className="text-[#3BC3EE] text-center text-3xl font-semibold pt-10">02</p>
+                <h4 className="text-[#F9DAFB] py-4 font-bold text-xl">NCS Hack</h4>
+                <h4 className="text-white pt-10 capitalize text-2xl font-normal">Who can participate ?</h4>
               </div>
             </Vortex>
           ) : (
             <Vortex backgroundColor="" className={styles.carte}>
               <div className={styles.info}>
-              <p className="text-white text-lg text-justify">New Text Here why it is i want it to go down now i thingk it is working let's try more lines to see if the text stays in the middle</p>
+              <p className="text-white text-xl capitalize text-balance font-thin">
+                Everyone is invited to <br/><span className='text-[#F9DAFB] font-medium'>NCS Hack !</span> whether you're seasoned coder, creative designer, or data enthusiast .
+              </p>
               </div>
             </Vortex>
           )}
@@ -80,16 +85,18 @@ const VortexDemo = () => {
         <div className="w-72 mx-auto rounded-[60px] h-96 overflow-hidden border-4 border-[#F9DAFB]/45" onMouseEnter={handleCardClick2} onMouseLeave={handleMouseLeave2}>
           {showContent2 ? (
             <Vortex backgroundColor="transparent" className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full">
-              <div className="text-center">
-                <p className="text-[#3BC3EE] text-center text-3xl font-semibold">03</p>
-                <h4 className="text-[#F9DAFB] py-4 font-bold text-xl">NCS hack</h4>
-                <h4 className="text-white py-4">What is Ncs Hack about ?</h4>
+              <div className="text-center h-full">
+                <p className="text-[#3BC3EE] text-center text-3xl font-semibold pt-10">03</p>
+                <h4 className="text-[#F9DAFB] py-4 font-bold text-xl">NCS Hack</h4>
+                <h4 className="text-white pt-10 capitalize text-2xl font-normal">What is the <br/>goal ?</h4>
               </div>
             </Vortex>
           ) : (
             <Vortex backgroundColor="" className={styles.carte}>
               <div className={styles.info}>
-              <p className="text-white text-lg text-justify">New Text Here why it is i want it to go down now i thingk it is working let's try more lines to see if the text stays in the middle</p>
+              <p className="text-white text-xl capitalize  font-thin text-balance">
+                <span className='text-[#F9DAFB] font-medium'>NCS Hack</span> aims to push boundaries and tackle real-world problems with AI, sharpen your skills and make a difference in just few days .
+              </p>
               </div>
             </Vortex>
           )}
@@ -97,60 +104,73 @@ const VortexDemo = () => {
         <div className="w-72 mx-auto rounded-[60px] h-96 overflow-hidden border-4 border-[#F9DAFB]/45" onMouseEnter={handleCardClick3} onMouseLeave={handleMouseLeave3}>
           {showContent3 ? (
             <Vortex backgroundColor="transparent" className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full">
-              <div className="text-center">
-                <p className="text-[#3BC3EE] text-center text-3xl font-semibold">04</p>
-                <h4 className="text-[#F9DAFB] py-4 font-bold text-xl">NCS hack</h4>
-                <h4 className="text-white py-4">What is Ncs Hack about ?</h4>
+              <div className="text-center h-full">
+                <p className="text-[#3BC3EE] text-center text-3xl font-semibold pt-10">04</p>
+                <h4 className="text-[#F9DAFB] py-4 font-bold text-xl">NCS Hack</h4>
+                <h4 className="text-white pt-10 capitalize text-2xl font-normal">Do i need to have a team ?</h4>
               </div>
             </Vortex>
           ) : (
             <Vortex backgroundColor="" className={styles.carte}>
               <div className={styles.info}>
-              <p className="text-white text-lg text-justify">New Text Here why it is i want it to go down now i thingk it is working let's try more lines to see if the text stays in the middle</p>
+              <p className="text-white text-xl capitalize font-thin text-balance">
+                To join <span className='text-[#F9DAFB] font-medium'>NCS Hack</span>, it would be better if you already have a team of 4 members, in case 
+                you don't, we will be forming teams . 
+                </p>
               </div>
             </Vortex>
           )}
         </div>
     </div>
     <div className="hidden max-[767px]:grid gap-4 grid-cols-1 gap-y-8">
-    <div className="w-64 mx-auto rounded-[60px] h-max overflow-hidden border-4 border-[#F9DAFB]/45">
+    <div className="w-64 mx-auto rounded-[60px] overflow-hidden border-4 border-[#F9DAFB]/45 h-80">
       <Vortex backgroundColor="transparent" className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full">
-          <div className="text-center mx-auto ">
-          <p className="text-[#3BC3EE] text-center text-2xl font-semibold">01</p>
-            <h4 className="text-[#F9DAFB] font-bold text-lg text-center py-4">NCS hack</h4>
-            <h4 className="text-white py-4">1. What is Ncs Hack about?</h4>
-            <p className="text-[#F9DAFB] text-center pb-4 text-balance">TanahAir offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.</p>
-          </div>
+          <div className="text-center h-full">
+                <p className="text-[#3BC3EE] text-xl font-semibold ">01</p>
+                <h4 className="text-[#F9DAFB]  font-bold text-lg">NCS Hack</h4>
+                <h4 className="text-white pt-2 font-medium capitalize">What is Ncs Hack about ?</h4>
+                <p className="text-white text-medium capitalize text-balance font-thin py-6">
+                <span className='text-[#F9DAFB] font-medium'>NCS Hack</span> is a thrilling Hackathon hosted by NCS Club, over 3 days, immerse yourself 
+                in dynamic challenges to develop AI powered solutions .
+              </p>
+              </div>
         </Vortex>
       </div>
-      <div className="w-64 mx-auto rounded-[60px] h-max overflow-hidden border-4 border-[#F9DAFB]/45">
+      <div className="w-64 mx-auto rounded-[60px] h-80 overflow-hidden border-4 border-[#F9DAFB]/45">
       <Vortex backgroundColor="transparent" className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full">
-          <div className="text-center">
-          <p className="text-[#3BC3EE] text-center text-2xl font-semibold">02</p>
-            <h4 className="text-[#F9DAFB] font-bold text-lg text-center py-4">NCS hack</h4>
-            <h4 className="text-white py-4">1. What is Ncs Hack about?</h4>
-            <p className="text-[#F9DAFB] text-center pb-4 text-balance">TanahAir offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.</p>
-          </div>
+              <div className="text-center h-full">
+                <p className="text-[#3BC3EE] text-xl font-semibold">02</p>
+                <h4 className="text-[#F9DAFB] font-bold text-lg">NCS Hack</h4>
+                <h4 className="text-white pt-2 font-medium capitalize">Who can participate ?</h4>
+                <p className="text-white text-medium capitalize  font-thin text-balance py-6">
+                Everyone is invited to <br/><span className='text-[#F9DAFB] font-medium'>NCS Hack !</span> whether you're seasoned coder, creative designer, or data enthusiast .
+                </p>
+              </div>
         </Vortex>
       </div>
-      <div className="w-64 mx-auto rounded-[60px] h-max overflow-hidden border-4 border-[#F9DAFB]/45">
+      <div className="w-64 mx-auto rounded-[60px] h-80 overflow-hidden border-4 border-[#F9DAFB]/45">
       <Vortex backgroundColor="transparent" className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full">
-          <div className="text-center">
-          <p className="text-[#3BC3EE] text-center text-2xl font-semibold">03</p>
-            <h4 className="text-[#F9DAFB] font-bold text-lg text-center py-4">NCS hack</h4>
-            <h4 className="text-white py-4">1. What is Ncs Hack about?</h4>
-            <p className="text-[#F9DAFB] text-center pb-4 text-balance">TanahAir offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.</p>
-          </div>
+              <div className="text-center h-full">
+              <p className="text-[#3BC3EE] text-xl font-semibold">03</p>
+                <h4 className="text-[#F9DAFB] font-bold text-lg">NCS Hack</h4>
+                <h4 className="text-white pt-2 font-medium capitalize">What is the goal ?</h4>
+                <p className="text-white text-medium capitalize  font-thin text-balance py-6">
+                <span className='text-[#F9DAFB] font-medium'>NCS Hack</span> aims to push boundaries and tackle real-world problems with AI, sharpen your skills and make a difference in just few days .
+              </p>
+              </div>
         </Vortex>
       </div>
-      <div className="w-64 mx-auto rounded-[60px] h-max overflow-hidden border-4 border-[#F9DAFB]/45">
+      <div className="w-64 mx-auto rounded-[60px] h-80 overflow-hidden border-4 border-[#F9DAFB]/45">
       <Vortex backgroundColor="transparent" className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full">
-          <div className="text-center">
-          <p className="text-[#3BC3EE] text-center text-2xl font-semibold">04</p>
-            <h4 className="text-[#F9DAFB] font-bold text-lg text-center py-4">NCS hack</h4>
-            <h4 className="text-white py-4">1. What is Ncs Hack about?</h4>
-            <p className="text-[#F9DAFB] text-center pb-4 text-balance">TanahAir offers a service for creating a website design, illustration, icon set, website development, animation and digital marketing.</p>
-          </div>
+              <div className="text-center h-full">
+                <p className="text-[#3BC3EE] text-xl font-semibold">01</p>
+                <h4 className="text-[#F9DAFB] font-bold text-lg">NCS Hack</h4>
+                <h4 className="text-white pt-2 font-medium capitalize">Do i need to have a team ?</h4>
+                <p className="text-white text-medium capitalize font-thin text-balance py-6">
+                To join <span className='text-[#F9DAFB] font-medium'>NCS Hack</span>, it would be better if you already have a team of 4 members, in case 
+                you don't, we will be forming teams . 
+                </p>
+              </div>
         </Vortex>
       </div>
     </div>
