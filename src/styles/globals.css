@@ -6,3 +6,11 @@ body {
     background-color: black;
     color: white;
 }
+.swiper-pagination-bullet-active {
+    background-color: #eeaef3 !important;
+}
+.swiper-pagination-bullet {
+    background-color: #0EC9E3 !important;
+    width: 1rem !important;
+    height: 1rem !important;
+}
