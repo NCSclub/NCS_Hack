@@ -1,6 +1,5 @@
-import React from "react";
-import { cn } from "@/utils/cn";
-import { Spotlight } from "../ui/spotlight";
+
+import  Spotlight  from "@/components/Hero/components/ui/Spotlight"
 import { SparklesPreview } from "./sparklescomp";
 export function SpotlightPreview() {
   return (
