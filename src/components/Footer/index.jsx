@@ -34,18 +34,21 @@ const socialMediaLinks = [
 
 export default function Footer() {
   return (
-    <section className="relative w-full min-h-screen flex flex-col justify-end bg-background">
+    <section className="relative w-full min-h-screen flex flex-col justify-end ">
       <div className="absolute inset-0 bg-cover bg-no-repeat bg-center bg-shadow"></div>
       <div className="absolute inset-0 bg-contain bg-no-repeat bg-center bg-arrow"></div>
       <div className="absolute inset-0 bg-contain bg-no-repeat bg-right bg-cube"></div>
       <div className="flex justify-center mb-10">
+       <a src='https://tripetto.app/run/YTZACWEMES'>
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           className="bg-blue-600 text-white font-bold py-2 px-4 rounded"
+          
         >
           Register Now
         </motion.button>
+        </a>
       </div>
       <footer className="relative w-full bg-black bg-opacity-70 py-6 flex flex-col items-center md:flex-row md:justify-between md:px-8">
         <div className="mb-4 md:mb-0 flex-shrink-0">
