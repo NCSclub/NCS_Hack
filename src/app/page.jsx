@@ -1,5 +1,8 @@
 import Footer from "@/components/Footer";
-
+import Hero from "@/components/Hero";
+import AboutNcs from "@/components/AboutNcs"; 
+import Sponsors from "@/components/Sponsors";
+import AboutNcsHack from "@/components/AboutNcsHack";
 
 export default function page() {
   return (
