@@ -14,9 +14,8 @@ export function SparklesPreview() {
           className="w-[405px] h-[109px] md:w-[750px] md:h-[200px]"
           src="/images/Hero/NCSHACK_logo.png"
         />
-
-       
       </div>
+
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-[#C05AA2] to-transparent h-[2px] w-3/4 blur-sm" />
@@ -36,7 +35,7 @@ export function SparklesPreview() {
         />
 
         {/* Radial Gradient to prevent sharp edges */}
-        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+        <div className="absolute inset-0 w-full h-full  [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div>
     </div>
   );
