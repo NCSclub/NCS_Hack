@@ -38,11 +38,11 @@ export default function Footer() {
       <div className="absolute inset-0 bg-cover bg-no-repeat bg-center bg-shadow"></div>
       <div className="absolute inset-0 bg-contain bg-no-repeat bg-center bg-arrow"></div>
       <div className="absolute inset-0 bg-contain bg-no-repeat bg-right bg-cube"></div>
-      <div className="flex justify-center mb-10">
+      <div className="flex justify-center mb-52 z-10">
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-blue-600 text-white font-bold py-2 px-4 rounded"
+          className="bg-blue-600 text-white font-bold py-2 px-4 rounded-xl"
         >
           Register Now
         </motion.button>
