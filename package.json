@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
+    "react-visibility-sensor": "^5.1.1",
+    "simplex-noise": "^4.0.1",
     "@tabler/icons-react": "^3.3.0",
     "@tsparticles/engine": "^3.3.0",
     "@tsparticles/react": "^3.0.0",
