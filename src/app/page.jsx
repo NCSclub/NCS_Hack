@@ -22,7 +22,7 @@ export default function page() {
       </div>
       </div>
       <div className="bg-[url('/images/General/cube6_transparentbig.svg')] bg-no-repeat  bg-right" >
-      <AboutNcs />
+      {/* <AskQuestions /> */}
       </div>
     </div>
   )
