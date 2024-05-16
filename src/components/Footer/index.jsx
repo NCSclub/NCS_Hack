@@ -1,9 +1,94 @@
-import React from 'react'
+"use client";
+
+import Image from "next/image";
+import { motion } from "framer-motion";
+import React from "react";
 
 export default function Footer() {
   return (
-    <div>
-      
-    </div>
-  )
+    <section className="relative w-full min-h-screen flex flex-col justify-end bg-background">
+      <div className="absolute inset-0 bg-cover bg-no-repeat bg-center bg-shadow"></div>
+      <div className="absolute inset-0 bg-contain bg-no-repeat bg-center bg-arrow"></div>
+      <div className="absolute inset-0 bg-contain bg-no-repeat bg-right bg-cube"></div>
+      <div className="flex justify-center mb-52 z-10">
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          className="bg-blue-600 w-44 h-14 text-white font-bold py-2 px-4 rounded-xl"
+        >
+          Register Now
+        </motion.button>
+      </div>
+      <footer className="relative w-full bg-black bg-opacity-70 py-6 flex flex-col items-center md:flex-row md:justify-between md:px-8">
+        <div className="mb-4 md:mb-0 flex-shrink-0">
+          <Image
+            src="/images/Footer/whiteNcsHackLogo.svg"
+            alt="NCS Hack Logo"
+            width={150}
+            height={50}
+          />
+        </div>
+        <div className="flex flex-col items-center mb-4 md:mb-0">
+          <div className="flex space-x-4 mb-4">
+            <a href="">
+              <Image
+                src="/images/Footer/linkdInIcon.svg"
+                alt="LinkedIn"
+                width={40}
+                height={40}
+              />
+            </a>
+            <a href="">
+              <Image
+                src="/images/Footer/instagramIcon.svg"
+                alt="Instagram"
+                width={40}
+                height={40}
+              />
+            </a>
+            <a href="">
+              <Image
+                src="/images/Footer/discordIcon.svg"
+                alt="Discord"
+                width={40}
+                height={40}
+              />
+            </a>
+            <a href="">
+              <Image
+                src="/images/Footer/tiktokIcon.svg"
+                alt="TikTok"
+                width={40}
+                height={40}
+              />
+            </a>
+            <a href="">
+              <Image
+                src="/images/Footer/emailIcon.svg"
+                alt="Email"
+                width={40}
+                height={40}
+              />
+            </a>
+          </div>
+          <div>
+            <p className="text-white">Made with ❤️ by NCS</p>
+          </div>
+        </div>
+        <div className="flex-shrink-0">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            className="hover:bg-gray-700 hover:rounded-md p-2"
+          >
+            <a href="#navbar" className="flex items-center gap-2">
+              <span className="text-white font-bold">Back to the top</span>
+              {/* Uncomment and use the appropriate arrow image if necessary */}
+              {/* <Image alt="Top Arrow" src="/images/Footer/backGroundArrow.svg" width={20} height={20} /> */}
+            </a>
+          </motion.button>
+        </div>
+      </footer>
+    </section>
+  );
 }
