@@ -15,7 +15,7 @@ export default function Hero() {
 
   return (
     <section
-      className="lg:h-screen flex flex-col md:justify-between items-center "
+      className="lg:h-screen md:h-fit h-screen flex flex-col md:justify-between items-center "
     >
       <SpotlightPreview />
 
