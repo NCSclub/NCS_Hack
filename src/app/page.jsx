@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import AboutNcs from "@/components/AboutNcs"; 
 import Sponsors from "@/components/Sponsors";
 import AboutNcsHack from "@/components/AboutNcsHack";
+import ActiveSlider from "@/components/AskQuestions";
 
 export default function page() {
   return (
@@ -21,7 +22,7 @@ export default function page() {
       </div>
       </div>
       <div className="bg-[url('/images/General/cube6_transparentbig.svg')] bg-no-repeat  bg-right" >
-      {/* <AskQuestions /> */}
+      <ActiveSlider />
       </div>
 <Footer />
     </div>
