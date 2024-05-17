@@ -40,7 +40,7 @@ export default function Hero() {
               width={500}
               src="/images/Hero/cld.svg"
             />
-            <h3 className="text-white">24-25-26 MAI</h3>
+            <h3 className="text-white">23-24-25 MAI</h3>
           </div>
 
           <div className="flex flex-row items-center gap-2">
