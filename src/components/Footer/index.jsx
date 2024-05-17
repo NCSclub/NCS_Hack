@@ -39,7 +39,7 @@ export default function Footer() {
       <div className="absolute inset-0 bg-contain bg-no-repeat bg-center bg-arrow"></div>
       <div className="absolute inset-0 bg-contain bg-no-repeat bg-right bg-cube"></div>
       <div className="flex justify-center mb-10">
-       <a src='https://tripetto.app/run/YTZACWEMES'>
+       {/* <a src='https://tripetto.app/run/YTZACWEMES'>
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
@@ -48,7 +48,7 @@ export default function Footer() {
         >
           Register Now
         </motion.button>
-        </a>
+        </a> */}
       </div>
       <footer className="relative w-full bg-black bg-opacity-70 py-6 flex flex-col items-center md:flex-row md:justify-between md:px-8">
         <div className="mb-4 md:mb-0 flex-shrink-0">
