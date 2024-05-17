@@ -20,7 +20,7 @@ export default function Sponsors() {
 
           <li>
 
-            <Link key={key} href='#'><img alt="" loading="lazy" width="300" height="400" decoding="async" data-nimg="1" class="  hover:brightness-100 object-contain  hover:grayscale-0 transition-all duration-300 ease-in-out  brightness-75 grayscale" src={logo.path} /></Link>
+            <Link  href='#'><img key={key} alt="" loading="lazy" width="300" height="400" decoding="async" data-nimg="1" class="  hover:brightness-100 object-contain  hover:grayscale-0 transition-all duration-300 ease-in-out  brightness-75 grayscale" src={logo.path} /></Link>
           </li>
 
         ))}
