@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import AboutNcs from "@/components/AboutNcs"; 
-// import Sponsors from "@/components/Sponsors";
+import Sponsors from "@/components/Sponsors";
 import AboutNcsHack from "@/components/AboutNcsHack";
 import ActiveSlider from "@/components/AskQuestions";
 
@@ -17,7 +17,7 @@ export default function page() {
       <div className="bg-[url('/images/General/cube6_transparent.svg')] bg-no-repeat  bg-left ">
       <AboutNcs />
       <AboutNcsHack />
-      {/* <Sponsors /> */}
+      <Sponsors />
       
       </div>
       </div>
