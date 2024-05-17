@@ -54,10 +54,10 @@ export default function Hero() {
             <Link
               className="flex justify-center items-center gap-6 "
               target="_blank"
-              href="https://maps.app.goo.gl/9Aeizen7VEjrkLD6A"
+              href="https://maps.app.goo.gl/capKui9Y5FvGD8Zc9?g_st=ic"
             >
               <h3 className="text-white max-w-[290px] hover:text-blue-500 hover:duration-[100ms] ">
-                NUMIDI INSTITUE OF TEACHNOLOGY AlGER-RAHMANIA
+                NUMIDIA INSTITUTE OF TECHNOLOGY ALGER-RAHMANIA
               </h3>
             </Link>
 
