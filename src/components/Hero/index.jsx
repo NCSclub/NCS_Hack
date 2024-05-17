@@ -14,7 +14,7 @@ export default function Hero() {
   }
 
   return (
-    <section
+    <section id="navbar"
       className="lg:h-screen md:h-fit h-screen flex flex-col md:justify-between items-center "
     >
       <SpotlightPreview />
