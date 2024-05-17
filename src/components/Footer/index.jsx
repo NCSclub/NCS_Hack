@@ -37,7 +37,7 @@ export default function Footer() {
     <section className="relative w-full min-h-screen flex flex-col justify-end ">
       <div className="absolute inset-0 bg-cover bg-no-repeat bg-center bg-shadow"></div>
       <div className="absolute inset-0 bg-contain bg-no-repeat bg-center bg-arrow"></div>
-      <div className="absolute inset-0 bg-contain bg-no-repeat bg-right bg-cube"></div>
+      <div className="absolute inset-0  bg-left bg-no-repeat  bg-cube"></div>
       <div className="flex justify-center mb-10">
        {/* <a src='https://tripetto.app/run/YTZACWEMES'>
         <motion.button

@@ -4,12 +4,14 @@ import AboutNcs from "@/components/AboutNcs";
 import Sponsors from "@/components/Sponsors";
 import AboutNcsHack from "@/components/AboutNcsHack";
 import ActiveSlider from "@/components/AskQuestions";
+import Header from "@/components/header";
 
 export default function page() {
   return (
     <div>
       <div className=" mb-4 bg-[url('/images/General/ellipse503.svg')] bg-no-repeat bg-right" >
       <div className="bg-[url('/images/General/ellipse500.svg')] bg-no-repeat bg-left">
+      <Header/>
       <Hero/>
       </div>
       </div>

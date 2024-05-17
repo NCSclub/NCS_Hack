@@ -11,7 +11,7 @@ import { ServiceData } from './constants/index1';
 
 const ActiveSlider = () => {
   return (
-    <div className='mx-auto flex items-center justify-center flex-col h-fit'>
+    <section className='mx-auto flex items-center justify-center flex-col h-fit'>
       <h4 className='text-center mt-16 text-5xl md:text-7xl font-semibold pb-16'>Frenquently Asked <br/><span className='text-[#0EC9E3]'>Questions</span></h4>
       <Swiper
         breakpoints={{
@@ -70,7 +70,7 @@ const ActiveSlider = () => {
         
       </Swiper>
       
-    </div>
+    </section>
   );
 };
 

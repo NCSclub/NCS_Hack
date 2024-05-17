@@ -43,7 +43,7 @@ module.exports = {
         "bgtimer2": "url('/images/Hero/timefr2.svg')",
          shadow: "url('/images/Footer/backgroundShadow.svg')",
         arrow: "url('/images/Footer/backGroundArrow.svg')",
-        cube: "url('/images/Footer/backGroundCube.svg')",
+        cube: "url('/images/Footer/cube6_transparent (2).svg')",
       },
     },
   },

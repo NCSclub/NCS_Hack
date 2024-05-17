@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const CountdownTimer = ({ setDisabled }) => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date('2024-05-21T00:00:00'); // Correct format
+    const eventDate = new Date('2024-05-22T17:00:00Z'); // UTC time
     const currentDate = new Date();
     const difference = eventDate - currentDate;
     if (difference > 0) {

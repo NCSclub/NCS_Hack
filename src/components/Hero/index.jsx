@@ -21,10 +21,10 @@ export default function Hero() {
 
       <div className="flex flex-col justify-center items-center ">
         <Image
-          className="hidden md:block  w-[150px] "
+          className="w-[250px] "
           height={1000}
           width={1000}
-          src="/images/Hero/NIT-LOGO.png"
+          src="/images/Hero/logonitt1 (1).png"
         />
       </div>
 

@@ -4,10 +4,8 @@ import React from 'react'
 
 export default function Sponsors() {
   const sponsors = [
-    { name: 'test', path: '/images/Sponsors/ncshacklogo_c1.svg' },
-    { name: 'test', path: '/images/Sponsors/ncshacklogo_c1.svg' },
-    { name: 'test', path: '/images/Sponsors/ncshacklogo_c1.svg' },
-    { name: 'test', path: '/images/Sponsors/ncshacklogo_c1.svg' },
+    { name: 'test', path: '/images/Sponsors/logo2.png' },
+    { name: 'test', path: '/images/Sponsors/nitLogo.png' },
   ]
 
   return (
