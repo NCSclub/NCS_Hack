@@ -76,7 +76,7 @@ export default function Hero() {
       </div>
 
       <div className="flex justify-center items-center  mt-10  ">
-        <Link target="_blank " href={hraf}>
+        {/* <Link target="_blank " href={hraf}>
           <button
             className={`relative inline-flex h-12 overflow-hidden rounded-full p-[2px]
          w-[200px] md:w-[300px] md:h-[60px] focus:outline-none focus:ring-2 focus:ring-offset-2
@@ -93,7 +93,30 @@ export default function Hero() {
               REGISTER NOW
             </span>
           </button>
-        </Link>
+        </Link> */}
+
+<Link target="_blank" href={hraf}>
+  <button
+    className={`relative inline-flex h-12 overflow-hidden rounded-full p-[2px]
+      w-[200px] md:w-[300px] md:h-[60px] focus:outline-none focus:ring-2 focus:ring-offset-2
+      focus:ring-offset-slate-50 transition-transform duration-500 transform hover:translate-y-[-5px] active:translate-y-[-5px]
+      ${isButtonDisabled ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}`}
+    disabled={isButtonDisabled}
+  >
+    <span
+      className="absolute inset-0 animate-spin-slow"
+      style={{
+        background: "conic-gradient(from 90deg at 50% 50%, #2444D5 0%, #24A6D5 50%, #2444D5 100%)",
+        transformOrigin: "center",
+      }}
+    />
+    <span className="relative inline-flex h-full w-full items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-md md:text-[22px] font-medium text-white backdrop-blur-3xl">
+      REGISTER NOW
+    </span>
+  </button>
+</Link>
+
+        
       </div>
 
       <div className=" hidden lg:flex  flex-col gap-4 justify-center items-center mt-[45px] ">
