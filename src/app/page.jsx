@@ -15,7 +15,7 @@ export default function page() {
       <Hero/>
       </div>
       </div>
-      <div className="bg-[url('/images/General/ellipse501.svg')] bg-no-repeat bg-right">
+      <div className=" overflow-hidden bg-[url('/images/General/ellipse501.svg')] bg-no-repeat bg-right">
       <div className="bg-[url('/images/General/cube6_transparent.svg')] bg-no-repeat  bg-left ">
       <AboutNcs />
       <AboutNcsHack />

@@ -8,7 +8,7 @@ import picture3 from "/public/images/AboutNcsHack/picture3.png"
 import picture4 from "/public/images/AboutNcsHack/picture4.png"
 export default function Photos() {
     return(
-        <div className="p-8 h-[100%] w-full   relative  sm:col-span-2 lg:col-span-3   ml-2 hidden md:flex 	">
+        <div className=" p-8 h-[100%] w-full   relative  sm:col-span-2 lg:col-span-3   ml-2 hidden md:flex 	">
             <div
               className={`absolute bg-transparent top-[20%] right-[6%] perspective-1000 lg:right-[8%] w-[250px] lg:w-[300px] xl:w-[400px] h-[150px] lg:h-[200px] xl:h-[250px] rotate-6  ${style.rotateYhover}  `}>
               <div
