@@ -12,7 +12,7 @@ function AboutNcs() {
         </div>
         <div className=' text-center lg:p-0  max-w-2xl flex flex-col  justify-between items-center  space-y-8' >
           <Image width={400} height={100} src='/images/LOGO.png' />
-          <p className=' text-white text-3xl lg:text-start	 '>
+          <p className=' text-white text-xl lg:text-start	 '>
           The NCS club is a student organization
  at Numidia Institute of  Technology, 
 that provides an inclusive platform for tech  enthusiasts 

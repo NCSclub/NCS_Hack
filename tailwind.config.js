@@ -8,6 +8,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        background: "#070707"
+      },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
@@ -38,6 +41,9 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "bgtimer": "url('/images/Hero/timefr1.svg')",
         "bgtimer2": "url('/images/Hero/timefr2.svg')",
+         shadow: "url('/images/Footer/backgroundShadow.svg')",
+        arrow: "url('/images/Footer/backGroundArrow.svg')",
+        cube: "url('/images/Footer/cube6_transparent (2).svg')",
       },
     },
   },
